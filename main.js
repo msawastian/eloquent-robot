@@ -193,8 +193,8 @@ function compareRobots(robot1, memory1, robot2, memory2) {
         robot1Score += testRobot(state, robot1, memory1);
         robot2Score += testRobot(state, robot2, memory2);
     }
-    console.log(robot1Score, robot1Score / 10000);
-    console.log(robot2Score, robot2Score / 10000);
+    console.log(robot1Score / 10000);
+    console.log(robot2Score / 10000);
 }
 
 compareRobots(betterGoalOrientatedRobot, [], evenBetterGoalOrientatedRobot, []);
